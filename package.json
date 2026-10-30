@@ -1,0 +1,36 @@
+{
+  "name": "my-first-mcp-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tushar-matey/My-first-MCP-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "weather": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "bugs": {
+    "url": "https://github.com/tushar-matey/My-first-MCP-server/issues"
+  },
+  "homepage": "https://github.com/tushar-matey/My-first-MCP-server#readme",
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  }
+}
